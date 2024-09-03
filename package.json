@@ -1,5 +1,6 @@
 {
-  "homepage": "https://faiza1st.github.io/Portfolio.faiza1st.github.io/",
+  "name" : "portfolio",
+  "homepage": "https://faiza1st.github.io/faiza1st.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -46,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
