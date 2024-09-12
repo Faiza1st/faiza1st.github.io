@@ -38,22 +38,24 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider" >
                 <div className="item">
                   <img src={meter1} alt="meter 1" />
-                  <h5> Web Design & Development</h5>
+                  <p> Web Design & Development</p>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="meter 3" />
-                  <h5> Front End Development : HTML, CSS, React & JavaScript</h5>
+                  <p> Front End Development: HTML, CSS, React & JavaScript</p>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="meter 2" />
-                  <h5>Back End Development : JQuery, Node, MySQL, Express, NOSQL, Web APIS, Third party APIS, ORM, MVC, PWA, MERN</h5>
+                  <p>Back End Development: JQuery, Node, MySQL, Express, NOSQL, Web APIS, Third party APIS, ORM, MVC, PWA, MERN</p>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="meter 4" />
-                  <h5>Graphic Design Software : Adobe Photoshop,
-                    Illustrator </h5>
+                  <p>Graphic Design Software: Adobe Photoshop,
+                    Illustrator </p>
                 </div>
               </Carousel>
+
+          
             </div>
           </div>
         </div>
