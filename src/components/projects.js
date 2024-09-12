@@ -59,7 +59,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="second">Github</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Bootcamp Projects Marks</Nav.Link>
+                      <Nav.Link eventKey="third"> Projects Marks</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -78,10 +78,10 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                        <a href="https://github.com/Faiza1st"><img src={github} alt="Github" /></a>
+                        <a href="https://github.com/Faiza1st"><img className= "project-img" src={github} alt="Github" /></a>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <img src={bootcamp} alt="BootcampMarks"/>
+                      <img className= "marks-img" src={bootcamp} alt="BootcampMarks"/>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
