@@ -5,19 +5,24 @@ import pro2 from "../assests/pro2.png";
 import pro3 from "../assests/pro3.png";
 import pro4 from "../assests/pro4.png";
 import pro5 from "../assests/pro5.png";
+import pro9 from "../assests/pro9.png";
+import pro8 from "../assests/pro8.png";
+import pro7 from "../assests/pro7.png";
 import github from "../assests/github2.png"
 import bootcamp from "../assests/Bootcampmarks.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { Link } from "react-router-dom";
 
 export const Projects = () => {
 
     const projects = [
-        {
-          title: "StudentConnect",
-          description: "StudentConnect is a specialised social networking site created exclusively for college and university students. It enables students to establish connections, engage in interactions, and exchange their university experiences and everyday lives.  ",
-          imgUrl: pro1,
-        },
+      {
+        title: "StudentConnect",
+        link: "https://github.com/Faiza1st/StudentConnect",
+        description: "StudentConnect is a specialised social networking site created exclusively for college and university students. It enables students to establish connections, engage in interactions, and exchange their university experiences and everyday lives.",
+        imgUrl: pro1,
+       },
         {
           title: "Work Day Scheduler",
           description: "The Work Schedule Application is a user-friendly calendar utility that can assist users better plan their everyday work habits. ",
@@ -38,8 +43,22 @@ export const Projects = () => {
             description: "This software is intended to help manage  money successfully by tracking  income, and expenses, and offering insights into  spending patterns. ",
             imgUrl: pro2,
           },
+          {
+            title: "Snake Game",
+            description: "Snake Game using Python and the pygame library ",
+            imgUrl: pro9,
+          },
+          {
+            title: "Pong Game",
+            description: "Pong Game using Python and the pygame library",
+            imgUrl: pro7,
+          },
+          {
+            title: "Turtle Game",
+            description: "Turtle Game using Python and the pygame library ",
+            imgUrl: pro8,
+          },
       ];
-
     return (
     <section className="project" id="projects">
       <Container>
@@ -56,7 +75,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="first">Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Github</Nav.Link>
+                      <Nav.Link eventKey="second">Games</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third"> Projects Marks</Nav.Link>
