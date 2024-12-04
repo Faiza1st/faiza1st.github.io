@@ -1,6 +1,5 @@
-
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 import meter1 from "../assests/meter1.svg";
 import meter2 from "../assests/meter2.svg";
 import meter3 from "../assests/meter3.svg";
